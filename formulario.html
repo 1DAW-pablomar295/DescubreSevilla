@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Sevilla</title>
+
+    <style>
+        a{
+            background-color: white;
+           color: black;
+            width: 60%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px;
+        }
+        .enfoca:visited  {color:darkgoldenrod; font-weight:normal; font-size:18px; text-decoration:none;
+            font-family:verdana,arial,helvetica,sans-serif;}
+            .transic:hover{
+                background-color:burlywood;
+                transition: 2s;
+
+            }
+            .tranf{
+                transform: skew(20deg);
+            }
+            footer {
+            background-color: Darkslategray;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+           
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;">
+    <h2 style="text-align: center;">SEVILLA</h2>
+    <p align="center">Rellene los siguientes campos para completar su formulario</p>
+ 
+    <form action="mailto:pmartol1201@g.educaand.es" method="post" enctype="text/plain">
+        <table border="0" cellpadding="10" cellspacing="5" style="width: 85%; margin: auto; border-collapse: collapse; background-color: white;">
+            <tr> 
+                <td style="background-color: DarkCyan; color: white; width: 50%; vertical-align: top;">
+
+
+
+
+               
+   <h3 style="background-color: Darkslategray; color: white; padding: 10px; text-align: left;">DATOS PERSONALES</h3>
+   <div style="background-color:#0b6464; padding: 10px;">                   
+
+<input type="text" name="nombre" maxlength="30" required style="width: 60%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Nombre"><br>
+                    <input type="text" name="apellidos" maxlength="30" required style="width: 60%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Apellidos"><br>
+                    <input type="text" name="direccion" maxlength="50" required style="width: 20%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Calle">
+                    <input type="text" name="direccion" maxlength="50" required style="width: 17.8%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Nº">
+                    <input type="text" name="direccion" maxlength="50" required style="width: 18%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Piso">
+                    <br>
+                    <input type="text" name="direccion" maxlength="50" required style="width: 20%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Letra">
+                    <input type="text" name="direccion" maxlength="50" required style="width: 17.8%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="CP">
+                    <input type="text" name="direccion" maxlength="50" required style="width: 18%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Provincia">
+                    <br>
+                    <input type="tel" name="telefono" maxlength="15" required style="width: 60%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Teléfono"><br>
+<input type="email" name="correo" required style="width: 60%; padding: 6px; margin-bottom: 10px; border-radius: 4px; border: 1px ;" placeholder="Correo"><br>
+
+</div>   
+
+
+
+
+<h3 style="background-color: Darkslategray; color: white; padding: 10px; text-align: left;">FAVORITOS</h3>
+<div style="background-color:#0e7d7d; padding: 10px;"> 
+    
+    
+
+
+                    
+<p>
+<input type="checkbox" id="Parques" name="Parques">
+<label for="Parques">Parques</label><br/>
+<select name="parques">
+                            <option>Alamillo</option>
+                            <option>Maria Luisa</option>
+                            <option>Parque de los Príncipes</option>
+                        </select>
+                        
+                    </p>
+
+
+
+
+                    <p>
+                        <input type="checkbox" id="Jardines" name="Jardines">
+<label for="jardines">Jardines</label><br/>
+<select name="Jardines">
+                            <option>De Murillo</option>
+                            <option>Del Alcázar</option>
+                            
+                        </select>
+                        
+                    </p>
+
+
+
+
+
+                    <p>
+                        <input type="checkbox" id="monumentos" name="monumentos">
+<label for="monumentos">Monumentos</label><br/>
+<select name="monumentos">
+                            <option>Giralda</option>
+                            <option>Torre del Oro</option>
+                            <option>Catedral de Sevilla</option>
+                        </select>
+                      
+                    </p>
+
+
+
+
+
+ 
+    
+                <td style="background-color: Bisque; width: 50%; vertical-align: top;">
+                    <h3 style="background-color: Darkslategray; color: white; padding: 10px; text-align: left;">DATOS ACADÉMICOS</h3>
+                    <div style="background-color:#f0b979; padding: 10px;">  
+                    <p>
+                        <input type="checkbox" name="ESO"> PARQUE<br/>
+                        <input type="checkbox" name="BACHILLERATO"> JARDINES<br/>
+                        <input type="checkbox" name="CFGM"> MONUMENTOS<br/>
+                        <input type="checkbox" name="CFGS"> FERIA<br/>
+                        <input type="checkbox" name="universidad">SEMANA SANTA<br/>
+                        <input type="checkbox" name="master">RIO GUADALQUIVIR<br/>
+                    </p>
+                    </div>
+ 
+                    <h3 style="background-color: Darkslategray; color: white; padding: 10px; text-align: left;">OPINIÓN</h3>
+
+
+
+                 
+                    <div style="background-color:#fad6a5; padding: 10px;">
+<p> RECOMENDACIONES </p>
+     
+<br></br>
+                    <textarea name="RECOMENDACIÓN" rows="3" required style="width: 90%; padding: 6px; border-radius: 4px; border: 1px ;" placeholder="Cosas a mejorar sobre la web"></textarea><br>
+ 
+                 
+                    <div style="background-color:#f5deb3; padding: 10px;">
+                    <textarea name="aptitudes" rows="6" required style="width: 90%; padding: 6px; border-radius: 4px; border: 1px ;" placeholder="Cosas favoritas de Sevilla"></textarea><br>
+                </td>
+            </tr>
+        </div>
+ 
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <input class="tranf" type="submit" value="Enviar" style="width: 40%; padding: 10px; margin: 15px 10px; background-color: DarkCyan; color: white; border: 0px; border-radius: 5px; cursor: pointer;">
+                    <input class="tranf" type="reset" value="Borrar" style="width: 40%; padding: 10px; margin: 15px 10px; background-color: DarkCyan; color: white; border: 0px; border-radius: 5px; cursor: pointer;">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <footer>
+        <li><a href="index.html">Volver a la página anterior</a></li>
+    </footer>
+
+</body>
+</html>

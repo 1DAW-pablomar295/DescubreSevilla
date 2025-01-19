@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SEVILLA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%; 
+  width: 100%;
+
+}
+
+/* Style the header */
+header {
+  background-color: #B22222;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #b58741;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #b9935a;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #B22222;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 100%) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.ver {
+  list-style-type: none;
+  background-color: #b58741;
+  margin: 0;
+  padding: 5;
+  
+
+}
+
+.ver li a {
+  display: block;
+  color: #000000;
+  padding: 8px 0px;
+  text-decoration: none;
+
+  
+}
+
+
+.ver li a:hover {
+  background-color: #b9935a;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Sevilla</h2>
+</header>
+
+<section>
+  <nav>
+    <ul class="ver">
+      <li><a href="eventos.html">Eventos</a></li>
+      <li><a href="Gastronomia.html">Gastronomía</a></li>
+      <li><a href="Monumentos.html">Monumentos</a></li>
+      <li><a href="rio.html">Río Guadalquivir</a></li>
+      <li><a href="parques.html">Parques</a></li>
+      <li><a href="jardines.html">Jardines</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Sevilla</h1>
+    <p>   Sevilla, capital de Andalucía, ciudad romana, árabe, renacentista, barroca, americana, mariana, flamenca, torera, moderna, festiva, luminosa, perfumada, marinera, tradicional, hospitalaria, graciosa, cosmopolita, religiosa... Todos estos adjetivos y muchos más se podrían añadir a esta ciudad, que además de personificar el tópico de lo "español" y lo "andaluz", guarda tal cantidad de atractivos artísticos, culturales, de ocio, sociales y turísticos que sería prolijo enumerar; pero que la han convertido en una de las ciudades más universales, conocidas y visitadas del mundo, cuna e inspiración de escritores, pintores y artistas en general.</p>
+<p>
+   Resultaría imposible encontrar en una urbe tantos, tan variados y tan singulares monumentos y lugares de gran belleza como la Giralda, la Catedral, los Reales Alcázares, la Torre del Oro, el Patio de los Naranjos, la Maestranza, la Casa de Pilatos, la Plaza de España, el Parque de María Luisa, el Teatro de la Maestranza, el Palacio de San Telmo, el Archivo de Indias, el Barrio de Santa Cruz, la Lonja, el Palacio Arzobispal, la Fábrica de Tabacos, el Ayuntamiento, el Palacio de las Dueñas, la Torre de Don Fadrique, las Murallas, la Basílica de la Macarena, el Museo de Bellas Artes, el Museo de Arte Contemporáneo, la Alameda de Hércules, el Barrio de Triana, los puentes sobre el Guadalquivir, la Cartuja y las instalaciones de la Expo 92, los edificios de la Exposición de 1929, la Casa de Luca de Tena, los patios de sus casas tradicionales, los balcones y rejas, y un sinfín de iglesias, conventos y detalles que convierten su centro histórico en un museo al aire libre.
+</p><p>
+   Si a todo ello le añadimos sus tabernas, su gastronomía, sus fiestas y la gracia y hospitalidad de sus gentes, nos resulta un conjunto lleno de colorido, dramatismo, luz, música, alegría, tradición y modernidad, difícil de igualar.</p>
+  </article>
+</section>
+
+<footer>
+ Pablo Martín Toledano
+</footer>
+
+</body>
+</html>
